@@ -2,6 +2,16 @@
 2D Driving Simulator
 
 CARLO stands for _[CARLA](http://carla.org/) - Low Budget_. CARLO is definitely less realistic than CARLA, but it is much easier to play with. Most importantly, you can easily step the simulator in CARLO, and it is computationally much lighter.
+
+This forked version of CARLO should work as the basic mechanisc for control validation by the Execution module.
+
+## TODO (for the Execution team):
+- Add actuators interfaces (currenlty, only throttle is available)
+- Add actuators inputs to the equations of motion
+- Implement transfer functions for actuators (throttle, steering wheel, brake, gears)
+- Add air resistance (drag) and frictional noise
+
+
 <img width="400" alt="CARLO - Example Image 1" src="carlo1.png" /><img width="400" alt="CARLO - Example Image 2" src="carlo2.png" />
 
 ## Dependencies
